@@ -1,6 +1,8 @@
 # BiangFont
 A very small font to provide display support for the Chinese character “biang2”, both unsimplified and simplified.
 
+Pre-made files can be found in the OTF directory.
+
 ## Notices
 The BiangFont is a personal project and playground idea, so is liable to be unorganised and no compatability or even usability testing is likely to be carried out.
 
