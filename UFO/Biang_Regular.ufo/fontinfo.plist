@@ -20,6 +20,10 @@
     <integer>800</integer>
     <key>descender</key>
     <integer>-200</integer>
+    <key>capHeight</key>
+    <integer>600</integer>
+    <key>xHeight</key>
+    <integer>400</integer>
     <key>italicAngle</key>
     <real>0</real>
     <key>note</key>
@@ -27,9 +31,9 @@
     <key>openTypeHeadCreated</key>
     <string>2021/08/21 16:04:21</string>
     <key>openTypeHheaAscender</key>
-    <integer>775</integer>
+    <integer>780</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-175</integer>
+    <integer>-170</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameVersion</key>
