@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yrsa&display=swap" rel="stylesheet">
+
+    <title>BiangFont Variable Test</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="header">
+                <h1>BiangFont in Use</h1>
+        </div>
+
+        <main>
+            <h2>A Simple Test</h2>
+            <p class="p1">BiangFont is a mini-glyphset font made to allow on-screen display of the Chinese character <span class="biang">𰻞</span> (biáng, simplified: <span class="biang">𰻝</span>), containing only this and a few other related characters. Many CJK typefaces do not display this character owing to its uncommon useage and very recent adoption into Unicode.</p>
+            <p class="p1">This font is also my first attempt at implementing variable font features. A demonstration of this is below. Please feel free to try changing the font weight using the sliders.</p>
+            <p class="p1">For more information about BiangFont, please see the GitHub page at <a href="https://github.com/fontfish/BiangFont">https://github.com/fontfish/BiangFont</a></p>
+
+            <!-- The following is heavily based on some W3 Schools tutorials, aided by some searching. -->
+            <div id="vf-test">
+                <div class="vf-text" contenteditable="true">
+                    <p id="vfont1"><span class="not-biang">Unsimplified: </span>𰻞𰻞麵<br><span class="not-biang">Simplified: </span>𰻝𰻝面</p>
+                    <p id="vfont2"><span class="not-biang">Unsimplified: </span>𰻞𰻞麵<br><span class="not-biang">Simplified: </span>𰻝𰻝面</p>
+                </div>
+
+                <div class="slider-box">
+                    <label for="weight-slider1" class="p1">Weight slider:</label>
+                    <input type="range" id="weight-slider1" min="300" max="900" value="600">
+                    <p class="p1"><span id="weight-display1"></span></p>
+
+                    <label for="weight-slider2" class="p1">Weight slider:</label>
+                    <input type="range" id="weight-slider2" min="300" max="900" value="300">
+                    <p class="p1"><span id="weight-display2"></span></p>
+                </div>
+            </div>
+
+            <script>
+                var slider1 = document.getElementById("weight-slider1");
+                var slider2 = document.getElementById("weight-slider2");
+
+                var wtdisplay1 = document.getElementById("weight-display1");
+                var wtdisplay2 = document.getElementById("weight-display2");
+
+                wtdisplay1.innerHTML = slider1.value;
+                wtdisplay2.innerHTML = slider2.value;
+
+                slider1.oninput = function() {
+                    wtdisplay1.innerHTML = this.value;
+                    document.getElementById("vfont1").style.fontVariationSettings = "'wght'" + slider1.value;
+                }
+
+                slider2.oninput = function() {
+                    wtdisplay2.innerHTML = this.value;
+                    document.getElementById("vfont2").style.fontVariationSettings = "'wght'" + slider2.value;
+                }
+            </script>
+        </main>
+
+        <div id="footer">
+            <h2>Typefaces used:</h2>
+            <p class="p1"><a href="https://www.rosettatype.com/custom-fonts/Yrsa-Rasa">Yrsa</a>, available from <a href="https://fonts.google.com/specimen/Yrsa">Google Fonts</a>.</p>
+            <p class="p1"><a href="https://github.com/fontfish/BiangFont">BiangFont</a></p>
+        </div>
+
+    </div> <!-- End of wrapper. -->
+
+</body>
+</html>
+
+<!-- Useful links:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+https://www.w3schools.com/html/
+https://www.w3schools.com/Css/
+-->

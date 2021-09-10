@@ -9,6 +9,10 @@ This font was a test for making variable fonts with Fontforge and Pilcrow.
 As such, a variable font version is also available, allowing you to enjoy
 noodles in a variety of weights!
 
+A test of this is available
+[here](https://fontfish.github.io/BiangFont/live-test/vf-test.html)
+.
+
 ## Notices
 The BiangFont is a personal project and playground idea, so is liable to
 be unorganised and no compatability or even usability testing is likely

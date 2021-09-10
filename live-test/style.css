@@ -20,19 +20,22 @@ h1 {
 	font-size: 42px;
 	font-family: 'Yrsa', serif;
 	font-weight: 300;
-	padding: 12px;
+	padding: 24px;
 }
 
 h2 {
 	font-size: 28px;
 	font-family: 'Yrsa', serif;
 	font-weight: 300;
+	padding: 24px;
 }
 
 .p1 {
 	font-size: 20px;
 	font-family: 'Yrsa', serif;
 	font-weight: 400;
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
 #vfont1 {
@@ -40,15 +43,28 @@ h2 {
 	font-family: 'Biang', serif;
 }
 
+#vfont1 span {
+	font-family: 'Yrsa', serif;
+}
+
 #vfont2 {
 	font-size: 14pt;
 	font-family: 'Biang', serif;
 }
 
+.biang {
+	font-family: 'Biang';
+}
+
+.not-biang {
+	font-family: 'Yrsa', serif;
+}
+
 /* Containers, &c. */
 
 #wrapper {
-	width: 60%;
+	background-color: white;
+	width: 68%;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1400px;
@@ -57,19 +73,23 @@ h2 {
 
 #header {
 	background-color: grey;
-    padding: 8px;
 }
 
 main {
 	background-color: white;
 	width: 100%;
-	height: auto;
-    padding: 20px;
 }
 
 #vf-test {
 	padding: 24px;
 }
 
+.slider-box {
+	padding-left: 20px;
+	padding-left: 20px;
+}
+
 #footer {
+	background-color: #dcdcc8;
+	width: 100%;
 }
