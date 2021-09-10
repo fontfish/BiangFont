@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yrsa&display=swap" rel="stylesheet">
+
+    <title>BiangFont Variable Test</title>
+</head>
+
+<!-- 𰻞𰻞麵 & 𰻝𰻝面 -->
+
+<body>
+
+    <div id="wrapper">
+        <div id="header">
+            <h1>BiangFont in Use</h1>
+        </div>
+
+        <main>
+            <h2>A simple test …</h2>
+            <p class="p1">This is but a simple test to show the variable weight of BiangFont.</p>
+            <p class="p1">In future, I hope to add an optical size axis.</p>
+
+            <!-- The following is heavily based on some W3 Schools tutorials, aided by some searching. -->
+            <div id="vf-test">
+                <div class="vf-text" contenteditable="true">
+                    <p id="vfont1">𰻞𰻞麵 & 𰻝𰻝面</p>
+                    <p id="vfont2">𰻞𰻞麵 & 𰻝𰻝面</p>
+                </div>
+
+                <label for="weight-slider1" class="p1">Weight slider:</label>
+                <input type="range" id="weight-slider1" min="300" max="700" value="400">
+                <p class="p1"><span id="weight-display1"></span></p>
+
+                <label for="weight-slider2" class="p1">Weight slider:</label>
+                <input type="range" id="weight-slider2" min="300" max="700" value="400">
+                <p class="p1"><span id="weight-display2"></span></p>
+            </div>
+
+            <script>
+                var slider1 = document.getElementById("weight-slider1");
+                var slider2 = document.getElementById("weight-slider2");
+
+                var wtdisplay1 = document.getElementById("weight-display1");
+                var wtdisplay2 = document.getElementById("weight-display2");
+
+                wtdisplay1.innerHTML = slider1.value;
+                wtdisplay2.innerHTML = slider2.value;
+
+                slider1.oninput = function() {
+                    wtdisplay1.innerHTML = this.value;
+                    document.getElementById("vfont1").style.fontVariationSettings = "'wght'" + slider1.value;
+                }
+
+                slider2.oninput = function() {
+                    wtdisplay2.innerHTML = this.value;
+                    document.getElementById("vfont2").style.fontVariationSettings = "'wght'" + slider2.value;
+                }
+            </script>
+        </main>
+
+        <div id="footer">
+            <h2>The BiangFont Github</h2>
+            <a class="p1" href="https://github.com/fontfish/BiangFont">https://github.com/fontfish/BiangFont</a>
+        </div>
+
+    </div> <!-- End of wrapper. -->
+
+</body>
+</html>
+
+<!-- Useful links:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+https://www.w3schools.com/html/
+https://www.w3schools.com/Css/
+-->

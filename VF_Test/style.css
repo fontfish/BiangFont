@@ -1,0 +1,75 @@
+/* 2021-09-10 */
+/* https://www.github.com/fontfish/ */
+
+/* Global Stuff */
+
+@font-face {
+    font-family: Biang;
+    src: url(Biang-VF.ttf); /* format('woff2-variations') */
+	font-weight: 300 900;
+	font-style: normal;
+}
+
+body {
+	background-color: #dcdcc8;
+}
+
+/* Font Stuff */
+
+h1 {
+	font-size: 42px;
+	font-family: 'Yrsa', serif;
+	font-weight: 300;
+	padding: 12px;
+}
+
+h2 {
+	font-size: 28px;
+	font-family: 'Yrsa', serif;
+	font-weight: 300;
+}
+
+.p1 {
+	font-size: 20px;
+	font-family: 'Yrsa', serif;
+	font-weight: 400;
+}
+
+#vfont1 {
+	font-size: 50pt;
+	font-family: 'Biang', serif;
+}
+
+#vfont2 {
+	font-size: 14pt;
+	font-family: 'Biang', serif;
+}
+
+/* Containers, &c. */
+
+#wrapper {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1400px;
+	min-width: 200px;
+}
+
+#header {
+	background-color: grey;
+    padding: 8px;
+}
+
+main {
+	background-color: white;
+	width: 100%;
+	height: auto;
+    padding: 20px;
+}
+
+#vf-test {
+	padding: 24px;
+}
+
+#footer {
+}
