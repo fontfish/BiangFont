@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>BiangFont</string>
+    <key>styleName</key>
+    <string>Light</string>
+    <key>styleMapFamilyName</key>
+    <string>BiangFont Light</string>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>copyright</key>
+    <string>Copyright (c) 2021, G Wilson
+https://github.com/fontfish
+
+Licensed under the terms of the SIL Open Font License.
+htttps://scripts.sil.org/OFL</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>ascender</key>
+    <integer>800</integer>
+    <key>descender</key>
+    <integer>-200</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>note</key>
+    <string>2021-8-21: Created with FontForge (http://fontforge.org)
+
+Licenced under the terms of the SIL Open Font License.
+The text of the license should be included with this font.
+If not, please see htttps://scripts.sil.org/OFL for the full license text.</string>
+    <key>openTypeHeadCreated</key>
+    <string>2021/08/21 16:04:21</string>
+    <key>openTypeHheaAscender</key>
+    <integer>780</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-170</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>90</integer>
+    <key>openTypeNameVersion</key>
+    <string>Version 1.000</string>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>300</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>PfEd</string>
+    <key>openTypeOS2FamilyClass</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>800</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-200</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>90</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>780</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>170</integer>
+    <key>postscriptFontName</key>
+    <string>BiangFont</string>
+    <key>postscriptFullName</key>
+    <string>BiangFont Light</string>
+    <key>postscriptWeightName</key>
+    <string>Light</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>guidelines</key>
+    <array/>
+  </dict>
+</plist>

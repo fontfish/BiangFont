@@ -1,7 +1,7 @@
 
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\u30EDD \u30EDE \uni9762 \uni9EBA \uni9EB5 \uni65C5 \a \b \c ];
+@GDEF_Simple = [\u30EDD \u30EDE \uni9762 \uni9EBA \uni9EB5 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

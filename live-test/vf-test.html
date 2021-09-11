@@ -35,11 +35,11 @@
 
                 <div class="slider-box">
                     <label for="weight-slider1" class="p1">Weight slider:</label>
-                    <input type="range" id="weight-slider1" min="300" max="900" value="600">
+                    <input type="range" id="weight-slider1" min="300" max="800" value="600">
                     <p class="p1"><span id="weight-display1"></span></p>
 
                     <label for="weight-slider2" class="p1">Weight slider:</label>
-                    <input type="range" id="weight-slider2" min="300" max="900" value="300">
+                    <input type="range" id="weight-slider2" min="300" max="800" value="400">
                     <p class="p1"><span id="weight-display2"></span></p>
                 </div>
             </div>
@@ -53,6 +53,9 @@
 
                 wtdisplay1.innerHTML = slider1.value;
                 wtdisplay2.innerHTML = slider2.value;
+
+                document.getElementById("vfont1").style.fontVariationSettings = "'wght'" + slider1.value;
+                document.getElementById("vfont2").style.fontVariationSettings = "'wght'" + slider2.value;
 
                 slider1.oninput = function() {
                     wtdisplay1.innerHTML = this.value;

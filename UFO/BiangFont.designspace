@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="weight" minimum="300" maximum="800" default="300">
+      <map input="300" output="300"/>
+      <map input="800" output="800"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="BiangFont-Light.ufo" familyname="BiangFont" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="weight" xvalue="300"/>
+      </location>
+    </source>
+    <source filename="BiangFont-ExtraBold.ufo" familyname="BiangFont" stylename="Extra-Bold">
+      <location>
+        <dimension name="weight" xvalue="800"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="BiangFont Regular" familyname="BiangFont" stylename="Regular" filename="BiangFont-Regular.ufo">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="BiangFont Medium" familyname="BiangFont" stylename="Medium" filename="BiangFont-Medium.ufo">
+      <location>
+        <dimension name="weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="BiangFont Semi-Bold" familyname="BiangFont" stylename="Semi-Bold" filename="BiangFont-SemiBold.ufo">
+      <location>
+        <dimension name="weight" xvalue="600"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="BiangFont Bold" familyname="BiangFont" stylename="Bold" filename="BiangFont-Bold.ufo">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>
