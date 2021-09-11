@@ -32,6 +32,12 @@ More information can be found on the
 [Wikipedia](https://en.wikipedia.org/wiki/Biangbiang_noodles)
 article.
 
+## License
+This font is licensed under the terms of the
+[Open Font License](https://scripts.sil.org/OFL).
+Changes will soon be made to bring the font metadata and add files to
+meet the OFL recommendations.
+
 ## Other Information
 Glyph data from GlyphWiki was used as a background skeleton to aid in
 construction of this font.
