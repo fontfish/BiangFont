@@ -10,8 +10,7 @@ As such, a variable font version is also available, allowing you to enjoy
 noodles in a variety of weights!
 
 A test of this is available
-[here](https://fontfish.github.io/BiangFont/live-test/vf-test.html)
-.
+[here](https://fontfish.github.io/BiangFont/live-test/vf-test.html).
 
 ## Notices
 The BiangFont is a personal project and playground idea, so is liable to
