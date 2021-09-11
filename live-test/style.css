@@ -17,9 +17,10 @@ body {
 /* Font Stuff */
 
 h1 {
+	color: white;
 	font-size: 42px;
 	font-family: 'Yrsa', serif;
-	font-weight: 500;
+	font-weight: 400;
 	padding: 24px;
 }
 
@@ -55,6 +56,7 @@ h2 {
 
 .not-biang {
 	font-family: 'Yrsa', serif;
+	font-weight: 300;
 }
 
 /* Containers, &c. */
@@ -69,7 +71,7 @@ h2 {
 }
 
 #header {
-	background-color: grey;
+	background-color: #a91822;
 }
 
 main {
